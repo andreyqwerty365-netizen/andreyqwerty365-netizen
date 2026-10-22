@@ -18,9 +18,11 @@ Windows-приложение для управления игровой площ
 
 `Python` `Flask` `JavaScript` `openpyxl` `PyInstaller` `Playwright` `GitHub Actions`
 
-### [КонсольГрад](https://github.com/andreyqwerty365-netizen/console.grad.github.io)
+### [КонсольГрад](https://github.com/andreyqwerty365-netizen/consolegrad)
 
 Коммерческий лендинг команды по реализации игровых комнат под ключ. Адаптивный интерфейс, кейсы, клиентский бриф, SEO, Docker/Nginx и production-развёртывание.
+
+[Сайт на собственном домене — consolegrad.online](https://consolegrad.online/)
 
 `HTML` `CSS` `JavaScript` `Docker` `Nginx` `GitHub Actions`
 
@@ -39,6 +41,14 @@ Windows-приложение для управления игровой площ
 | [Quote Builder](https://github.com/andreyqwerty365-netizen/quote-builder) | Коммерческие предложения: расчёты в копейках, общая скидка, черновик, предпросмотр и печать A4 | Первая версия |
 | [TextMask](https://github.com/andreyqwerty365-netizen/textmask) | Подготовка текста к передаче в ИИ: email, российские телефоны и точные строки заменяются стабильными метками | Первая версия; результат проверяется вручную |
 | [CSV Cleaner](https://github.com/andreyqwerty365-netizen/csv-cleaner) | Очистка CSV перед импортом: пробелы, пустые строки, полные дубликаты, сравнение и экспорт | **В разработке, 0.1** — доработка интерфейса и проверка реальных выгрузок; [план](https://github.com/andreyqwerty365-netizen/csv-cleaner/blob/main/docs/BACKLOG.md) |
+
+## Игра в разработке
+
+### [После стука · After the Knock](https://github.com/andreyqwerty365-netizen/after-the-knock)
+
+Нарративный survival horror на Unity: исследование старого дома, жильцы и посетители, подготовка к ночи и решения при неполной информации. **В разработке** — диалоги, подсказки и начало прохождения дорабатываются. В публичном репозитории — код, сюжетные JSON, тесты ядра и шесть скриншотов прототипа; исходные медиа и готовая сборка не распространяются.
+
+`Unity 6.3` `C#` `JSON` `Windows`
 
 ## Как я работаю
 
