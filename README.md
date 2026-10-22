@@ -6,9 +6,15 @@
 
 ## Избранные проекты
 
-### [PS Lounge 2.0](https://github.com/andreyqwerty365-netizen/PSLounge)
+### [Personal CRM · Kinetic](https://github.com/andreyqwerty365-netizen/personal-crm)
 
-Windows-приложение для управления игровой площадкой: станции, таймеры, оплаты, продления, отчёты XLSX, журнал действий, восстановление состояния и локальное лицензирование.
+Личная CRM для задач, проектов и обязательств. Быстрый ввод, план на сегодня, сроки, повторения и семидневный обзор. Веб-интерфейс и Telegram-ввод используют общую серверную логику и PostgreSQL; предусмотрены миграции, защита от конкурентных правок и восстановление из резервных копий.
+
+`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `Alembic` `Docker` `Playwright` `GitHub Actions`
+
+### [PS Lounge 2.1](https://github.com/andreyqwerty365-netizen/PSLounge)
+
+Windows-приложение для управления игровой площадкой: станции, таймеры, оплаты, продления, отчёты XLSX, журнал действий, восстановление состояния и локальное лицензирование. В версии 2.1 — модульная архитектура, улучшения сохранения и восстановления, исправления экспорта и браузерные регрессии.
 
 `Python` `Flask` `JavaScript` `openpyxl` `PyInstaller` `Playwright` `GitHub Actions`
 
@@ -24,6 +30,16 @@ Windows-приложение для управления игровой площ
 
 `Python` `Telegram Bot API` `SQLite` `Docker` `pytest` `S3 backup`
 
+## Небольшие веб-приложения
+
+Самостоятельные утилиты на HTML, CSS и JavaScript. Запуск через Node.js 24 без установки зависимостей; в каждом репозитории — README со скриншотами, автоматические тесты и описание ограничений.
+
+| Проект | Для чего | Статус |
+| --- | --- | --- |
+| [Quote Builder](https://github.com/andreyqwerty365-netizen/quote-builder) | Коммерческие предложения: расчёты в копейках, общая скидка, черновик, предпросмотр и печать A4 | Первая версия |
+| [TextMask](https://github.com/andreyqwerty365-netizen/textmask) | Подготовка текста к передаче в ИИ: email, российские телефоны и точные строки заменяются стабильными метками | Первая версия; результат проверяется вручную |
+| [CSV Cleaner](https://github.com/andreyqwerty365-netizen/csv-cleaner) | Очистка CSV перед импортом: пробелы, пустые строки, полные дубликаты, сравнение и экспорт | **В разработке, 0.1** — доработка интерфейса и проверка реальных выгрузок; [план](https://github.com/andreyqwerty365-netizen/csv-cleaner/blob/main/docs/BACKLOG.md) |
+
 ## Как я работаю
 
 - разбиваю спецификацию на проверяемые этапы;
@@ -35,6 +51,6 @@ Windows-приложение для управления игровой площ
 
 ## Технологии
 
-`Python` · `Flask` · `JavaScript` · `HTML/CSS` · `REST API` · `Git` · `GitHub Actions` · `Docker` · `Nginx` · `PyInstaller` · `Playwright`
+`Python` · `Flask` · `FastAPI` · `JavaScript` · `TypeScript` · `React` · `HTML/CSS` · `PostgreSQL` · `REST API` · `Git` · `GitHub Actions` · `Docker` · `Nginx` · `PyInstaller` · `Playwright`
 
 Сейчас развиваюсь в направлении AI-продуктов и AI-assisted engineering: быстрый цикл от готовой спецификации до проверенного рабочего продукта.
